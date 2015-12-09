@@ -1,0 +1,16 @@
+{
+  "name": "ace-mode-nsis",
+  "version": "1.0.0",
+  "author": "Jan T. Sott",
+  "license": "BSD",
+  "homepage": "https://github.com/idleberg/ace-mode-nsis",
+  "repository": "https://github.com/idleberg/ace-mode-nsis",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-debug": "^2.1.2",
+    "gulp-jshint": "^2.0.0"
+  },
+  "scripts": {
+    "test": "gulp lint"
+  }
+}
