@@ -9,7 +9,7 @@ Add NSIS support to [Ace][1] editor (formerly known as [Bespin][2]).
 
 ## License
 
-Released under [BSD license][3].
+Released under the [BSD license][3].
 
 ## Donate
 
