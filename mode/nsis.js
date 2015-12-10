@@ -4,6 +4,7 @@ define(function(require, exports, module) {
 var oop = require("../lib/oop");
 var TextMode = require("./text").Mode;
 var NSISHighlightRules = require("./nsis_highlight_rules").NSISHighlightRules;
+// TODO: pick appropriate fold mode
 var FoldMode = require("./folding/cstyle").FoldMode;
 
 var Mode = function() {
@@ -13,6 +14,8 @@ var Mode = function() {
 oop.inherits(Mode, TextMode);
 
 (function() {
+    this.lineCommentStart = [";", "#"];
+    this.blockComment = {start: "/*", end: "*/"};
     this.$id = "ace/mode/nsis";
 }).call(Mode.prototype);
 
