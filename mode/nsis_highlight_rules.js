@@ -94,7 +94,7 @@ var NSISHighlightRules = function() {
             regex: /\$\([\w\.:-]+\)/
         }, {
             token: "storage.type.function.nsis",
-            regex: /\$[\w]+/
+            regex: /\$\w+/
         }, {
             token: "punctuation.definition.string.begin.nsis",
             regex: /`/,
