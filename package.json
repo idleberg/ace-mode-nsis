@@ -1,8 +1,16 @@
 {
   "name": "ace-nsis-mode",
+  "description": "Ace mode for NSIS (Nullsoft Scriptable Install System)",
   "version": "1.5.0",
   "author": "Jan T. Sott",
   "license": "BSD-3-Clause",
+  "keywords": [
+    "ace",
+    "mode",
+    "nsis",
+    "nullsoft",
+    "syntax highlighter"
+  ],
   "homepage": "https://github.com/idleberg/ace-nsis-mode",
   "repository": "https://github.com/idleberg/ace-nsis-mode",
   "devDependencies": {
