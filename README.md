@@ -1,9 +1,10 @@
 # ace-nsis-mode
 
-[![BSD 3-Clause License](https://img.shields.io/badge/license-BSD-orange.svg?style=flat-square)](https://opensource.org/licenses/BSD-3-Clause)
-[![GitHub](https://img.shields.io/github/release/idleberg/ace-nsis-mode.svg?style=flat-square)](https://github.com/idleberg/ace-nsis-mode/releases)
-[![David](https://img.shields.io/david/dev/idleberg/ace-nsis-mode.svg?style=flat-square)](https://david-dm.org/idleberg/ace-nsis-mode?type=dev)
-[![Travis CI](https://img.shields.io/travis/idleberg/ace-nsis-mode.svg?style=flat-square)](https://travis-ci.org/idleberg/ace-nsis-mode)
+[![BSD 3-Clause License](https://flat.badgen.net/badge/license/BSD/orange)](https://opensource.org/licenses/BSD-3-Clause)
+[![GitHub](https://flat.badgen.net/github/release/idleberg/ace-nsis-mode)](https://github.com/idleberg/ace-nsis-mode/releases)
+[![Travis CI](https://flat.badgen.net/travis/idleberg/ace-nsis-mode)](https://travis-ci.org/idleberg/
+ace-nsis-mode)
+[![David](https://flat.badgen.net/david/dev/idleberg/ace-nsis-mode)](https://david-dm.org/idleberg/ace-nsis-mode?type=dev)
 
 Add NSIS support to [Ace][1] editor (formerly known as [Bespin][2]).
 
