@@ -13,7 +13,7 @@ Released under a [BSD license][3].
 
 ## Donate
 
-You are welcome support this project using [Flattr][4] or Bitcoin `17CXJuPsmhuTzFV2k4RKYwpEHVjskJktRd`
+You are welcome to support this project using [Flattr][4] or Bitcoin `17CXJuPsmhuTzFV2k4RKYwpEHVjskJktRd`
 
 [1]: https://ace.c9.io/
 [2]: https://wiki.mozilla.org/Labs/Bespin
