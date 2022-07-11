@@ -2,11 +2,10 @@
 
 [![BSD 3-Clause License](https://flat.badgen.net/badge/license/BSD/orange)](https://opensource.org/licenses/BSD-3-Clause)
 [![GitHub](https://flat.badgen.net/github/release/idleberg/ace-nsis-mode)](https://github.com/idleberg/ace-nsis-mode/releases)
-[![CircleCI](https://flat.badgen.net/circleci/github/idleberg/ace-nsis-mode)](https://circleci.com/gh/idleberg/ace-nsis-mode/)
-[![David](https://flat.badgen.net/david/dev/idleberg/ace-nsis-mode)](https://david-dm.org/idleberg/ace-nsis-mode?type=dev)
+[![CI](https://img.shields.io/github/workflow/status/idleberg/ace-nsis-mode/CI?style=flat-square)](https://github.com/idleberg/ace-nsis-mode/actions)
 
 
-Add NSIS support to [Ace][1] editor (formerly known as [Bespin][2]).
+Add NSIS support to [Ace][1] editor (formerly known as [Mozilla Bespin][2]).
 
 ## License
 
