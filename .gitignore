@@ -1,6 +1,21 @@
+# dependencies
 bower_components/
 node_modules/
-npm-debug.log
-todo.md
 vendor/
+
+# package manager files
+npm-debug.log*
+package-lock.json
+shrinkwrap.yaml
+yarn-error.log
 yarn.lock
+
+# development
+.eslintcache
+.stylelintcache
+tsconfig.tsbuildinfo
+
+# project specific
+test.js
+test.ts
+todo.md
