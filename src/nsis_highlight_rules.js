@@ -161,7 +161,7 @@
 
   NSISHighlightRules.metaData = {
     comment: "\n\ttodo: - highlight functions\n\t",
-    fileTypes: ["nsi", "nsh"],
+    fileTypes: ["nsi", "nsh", "bnsi", "bnsh", "nsdinc"],
     name: "NSIS",
     scopeName: "source.nsis"
   };
