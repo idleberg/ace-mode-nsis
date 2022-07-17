@@ -5,7 +5,8 @@
   "author": "Jan T. Sott",
   "license": "BSD-3-Clause",
   "scripts": {
-    "build": "rollup --config",
+    "bootstrap": "node ./tools/bootstrap.mjs",
+    "build": "node ./tools/build.mjs",
     "dev": "npm run start",
     "fix": "eslint --fix ./src",
     "lint": "eslint ./src",
@@ -26,10 +27,9 @@
     "eslint": "^7.32.0",
     "eslint-config-recommended": "^4.1.0",
     "husky": "^8.0.1",
+    "latest-version": "^7.0.0",
     "lint-staged": "^13.0.3",
-    "retrie": "^0.1.1",
-    "rollup": "^2.76.0",
-    "rollup-plugin-entry-code-injector": "^1.0.0",
+    "shelljs": "^0.8.5",
     "sirv-cli": "^2.0.2"
   }
 }
