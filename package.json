@@ -5,6 +5,11 @@
   "author": "Jan T. Sott",
   "license": "BSD-3-Clause",
   "browser": "./dist/mode-nsis.noconflict.js",
+  "files": [
+    "dist/",
+    "LICENSE",
+    "README.md"
+  ],
   "scripts": {
     "bootstrap": "node ./tools/bootstrap.mjs",
     "build": "node ./tools/build.mjs",
