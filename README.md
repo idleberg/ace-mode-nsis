@@ -7,6 +7,8 @@
 
 Add NSIS support to [Ace][1] editor (formerly known as [Mozilla Bespin][2]).
 
+[Demo Time](https://idleberg.github.io/ace-nsis-mode/) 🙌
+
 ## License
 
 Released under a [BSD license][3].
