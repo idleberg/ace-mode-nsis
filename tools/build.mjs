@@ -6,7 +6,10 @@ const distDir = resolve(process.cwd(), 'dist');
 
 function main() {
     try {
-        shell.cp(resolve(process.cwd(), './src/nsis*.js'), resolve(cacheDir, 'lib/ace/mode/'));
+        shell.cp(
+            resolve(process.cwd(), './src/nsis*.js'),
+            resolve(cacheDir, 'lib/ace/mode/')
+        );
     } catch (e) {
         throw Error('Failed to copy nsis mode');
     }
@@ -15,9 +18,21 @@ function main() {
         cwd: cacheDir
     });
 
-    shell.mkdir(distDir);
-    shell.cp(resolve(cacheDir, 'build/src/mode-nsis.js'), join(distDir, 'mode-nsis.js'));
-    shell.cp(resolve(cacheDir, 'build/src-noconflict/mode-nsis.js'), join(distDir, 'mode-nsis.noconflict.js'));
+    try {
+        shell.mkdir(distDir);
+    } catch {
+        console.log('dist directory already exists');
+    }
+
+    shell.cp(
+        resolve(cacheDir, 'build/src/mode-nsis.js'),
+        join(distDir, 'mode-nsis.js')
+    );
+    
+    shell.cp(
+        resolve(cacheDir, 'build/src-noconflict/mode-nsis.js'),
+        join(distDir, 'mode-nsis.noconflict.js')
+    );
 }
 
 main();
