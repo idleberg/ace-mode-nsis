@@ -4,6 +4,7 @@
   "version": "1.5.3",
   "author": "Jan T. Sott",
   "license": "BSD-3-Clause",
+  "browser": "./dist/mode-nsis.noconflict.js",
   "scripts": {
     "bootstrap": "node ./tools/bootstrap.mjs",
     "build": "node ./tools/build.mjs",
