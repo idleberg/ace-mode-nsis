@@ -10,6 +10,7 @@
     "dev": "npm run start",
     "fix": "eslint --fix ./src",
     "lint": "eslint ./src",
+    "prepare": "husky install",
     "start": "rollup --watch --config",
     "serve": "sirv -B ./",
     "test": "npm run lint"
@@ -24,12 +25,18 @@
   "homepage": "https://github.com/idleberg/ace-nsis-mode",
   "repository": "https://github.com/idleberg/ace-nsis-mode",
   "devDependencies": {
-    "eslint": "^7.32.0",
+    "eslint": "^8.20.0",
     "eslint-config-recommended": "^4.1.0",
     "husky": "^8.0.1",
     "latest-version": "^7.0.0",
     "lint-staged": "^13.0.3",
     "shelljs": "^0.8.5",
     "sirv-cli": "^2.0.2"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --cache --fix",
+      "prettier --write"
+    ]
   }
 }
