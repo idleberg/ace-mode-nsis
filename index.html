@@ -71,11 +71,13 @@ SectionEnd
       <a href="https://github.com/idleberg/ace-nsis-mode" class="text-indigo-600">Code on GitHub</a>
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.7.1/ace.min.js" integrity="sha512-7Jmn5XgQKvX7kd2yARvOywZYQfC6eB7WLLdpWfGifPHe+93PwGf2BpkrX/vPRgPxllivNDnD8TSMHpYb60opMg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.7.1/theme-one_dark.min.js" integrity="sha512-DL7jU9qDTsdJtyh2Kqm/dZp9w5Kkb7eiwOH7jC8Z9qfyQIXCtc+YA6uVz2uOcutNt5+zVzOO5hDK6C1pYOnTmQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="dist/mode-nsis.noconflict.js"></script>
     <script>
       window.addEventListener('DOMContentLoaded', (event) => {
         const editor = ace.edit("editor");
-        editor.setTheme("ace/theme/monokai");
+        editor.setTheme("ace/theme/one_dark");
+        editor.setShowPrintMargin(false);
         editor.session.setMode("ace/mode/nsis");
       });
   </script>
