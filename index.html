@@ -12,7 +12,10 @@
         height: 580px;
         border: 1px solid;
       }
-  </style>
+    </style>
+        <script defer src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.7.1/ace.min.js" integrity="sha512-7Jmn5XgQKvX7kd2yARvOywZYQfC6eB7WLLdpWfGifPHe+93PwGf2BpkrX/vPRgPxllivNDnD8TSMHpYb60opMg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script defer src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.7.1/theme-one_dark.min.js" integrity="sha512-DL7jU9qDTsdJtyh2Kqm/dZp9w5Kkb7eiwOH7jC8Z9qfyQIXCtc+YA6uVz2uOcutNt5+zVzOO5hDK6C1pYOnTmQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script defer src="dist/mode-nsis.noconflict.js"></script>
   </head>
   <body class="flex flex-col bg-grey-lighter dark:bg-gray-800 h-screen p-4 font-sans">
     <main class="container mx-auto flex justify-center">
@@ -69,9 +72,6 @@ SectionEnd
     <footer class="w-full text-center p-4 pin-b">
       <a href="https://github.com/idleberg/ace-nsis-mode" class="text-indigo-600">Code on GitHub</a>
     </footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.7.1/ace.min.js" integrity="sha512-7Jmn5XgQKvX7kd2yARvOywZYQfC6eB7WLLdpWfGifPHe+93PwGf2BpkrX/vPRgPxllivNDnD8TSMHpYb60opMg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.7.1/theme-one_dark.min.js" integrity="sha512-DL7jU9qDTsdJtyh2Kqm/dZp9w5Kkb7eiwOH7jC8Z9qfyQIXCtc+YA6uVz2uOcutNt5+zVzOO5hDK6C1pYOnTmQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="dist/mode-nsis.noconflict.js"></script>
     <script>
       window.addEventListener('DOMContentLoaded', (event) => {
         const editor = ace.edit("editor");
