@@ -1,4 +1,4 @@
-import { join, resolve } from 'path';
+import { join, resolve } from 'node:path';
 import shell from 'shelljs';
 
 const cacheDir = resolve(process.cwd(), '.cache');
