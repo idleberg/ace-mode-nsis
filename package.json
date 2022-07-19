@@ -1,7 +1,7 @@
 {
   "name": "ace-nsis-mode",
   "description": "Ace mode for NSIS (Nullsoft Scriptable Install System)",
-  "version": "1.6.0",
+  "version": "1.6.1",
   "author": "Jan T. Sott",
   "license": "BSD-3-Clause",
   "browser": "./dist/mode-nsis.noconflict.js",
