@@ -5,7 +5,7 @@ define(function (require, exports) {
 	const TextMode = require('./text').Mode;
 	const NSISHighlightRules = require('./nsis_highlight_rules').NSISHighlightRules;
 
-  // TODO: pick appropriate fold mode
+	// TODO: pick appropriate fold mode
 	const FoldMode = require('./folding/cstyle').FoldMode;
 
 	const Mode = function () {
