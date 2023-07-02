@@ -9,7 +9,7 @@ define('ace/mode/nsis_highlight_rules', ['require', 'exports', 'module', 'ace/li
 			start: [
 				{
 					token: 'keyword.compiler.nsis',
-					regex: /^\s*!(?:a(?:dd(?:includedir|plugindir)|ppendfile)|cd|de(?:fine|lfile)|e(?:cho|rror|xecute)|finalize|get(?:dllversion|tlbversion)|in(?:clude|sertmacro)|makensis|p(?:ackhdr|ragma)|s(?:earch(?:parse|replace)|ystem)|tempfile|un(?:def|instfinalize)|verbose|warning)\b/,
+					regex: /^\s*!(?:a(?:dd(?:includedir|plugindir)|ppendfile|ssert)|cd|de(?:fine|lfile)|e(?:cho|rror|xecute)|finalize|get(?:dllversion|tlbversion)|in(?:clude|sertmacro)|makensis|p(?:ackhdr|ragma)|s(?:earch(?:parse|replace)|ystem)|tempfile|un(?:def|instfinalize)|verbose|warning)\b/,
 					caseInsensitive: true
 				},
 				{
@@ -296,7 +296,7 @@ define('ace/mode/folding/cstyle', ['require', 'exports', 'module', 'ace/lib/oop'
 				return new Range(startRow, startColumn, endRow, line.length);
 			}
 		};
-	}.call(FoldMode.prototype));
+	}).call(FoldMode.prototype);
 });
 
 define('ace/mode/nsis', ['require', 'exports', 'module', 'ace/lib/oop', 'ace/mode/text', 'ace/mode/nsis_highlight_rules', 'ace/mode/folding/cstyle'], function (require, exports) {
@@ -318,7 +318,7 @@ define('ace/mode/nsis', ['require', 'exports', 'module', 'ace/lib/oop', 'ace/mod
 		this.lineCommentStart = [';', '#'];
 		this.blockComment = { start: '/*', end: '*/' };
 		this.$id = 'ace/mode/nsis';
-	}.call(Mode.prototype));
+	}).call(Mode.prototype);
 
 	exports.Mode = Mode;
 });
